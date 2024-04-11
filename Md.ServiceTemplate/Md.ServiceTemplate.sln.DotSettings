@@ -263,6 +263,903 @@
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpUseContinuousIndentInsideBracesMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EAlwaysTreatStructAsNotReorderableMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ESettingsUpgrade_002EMigrateBlankLinesAroundFieldToBlankLinesAroundProperty/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/CustomProperties/=FileName/@EntryIndexedValue">Entity</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/CustomProperties/=ValidateFileName/@EntryIndexedValue">True</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Description/@EntryValue">Add Service</s:String>
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY/InitialRange/@EntryValue">-1</s:Int64>
+	
+	
+	
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY_005FVAR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY_005FVAR/Expression/@EntryValue">decapitalize(ENTITY)</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY_005FVAR/InitialRange/@EntryValue">-1</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY_005FVAR/InitialSection/@EntryValue">133F1B15DB35374DB2E9C916D9EE64D9</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=ENTITY_005FVAR/Order/@EntryValue">2</s:Int64>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=SERVICE_005FNAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=SERVICE_005FNAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=SERVICE_005FNAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=SERVICE_005FNAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=TEST_005FSERVICE_005FNAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=TEST_005FSERVICE_005FNAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=TEST_005FSERVICE_005FNAMESPACE/InitialSection/@EntryValue">3B6863E4EA59D14AA622D2FFEB7AF0AC</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Field/=TEST_005FSERVICE_005FNAMESPACE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Reformat/@EntryValue">True</s:Boolean>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=058414BFB81D2B4BABD4661910349D26/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=058414BFB81D2B4BABD4661910349D26/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Services" File="$NAME$Database.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=058414BFB81D2B4BABD4661910349D26/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=058414BFB81D2B4BABD4661910349D26/Order/@EntryValue">17</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=058414BFB81D2B4BABD4661910349D26/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Services;&#xD;
+&#xD;
+using System;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+using $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///	Describes the $ENTITY_VAR$ database.&#xD;
+/// &lt;/summary&gt;&#xD;
+internal class $ENTITY$Database : I$ENTITY$Database&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Creates a new database entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$"&gt;The data of the new entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	public async Task CreateAsync(IDatabase$ENTITY$ database$ENTITY$, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await Task.CompletedTask;&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Reads all available entries.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IEnumerable{T}" /&gt; of &lt;see cref="IDatabase$ENTITY$" /&gt;.&lt;/returns&gt;&#xD;
+    public async Task&lt;IEnumerable&lt;IDatabase$ENTITY$&gt;&gt; ReadAsync(string userId, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await Task.CompletedTask;&#xD;
+&#xD;
+		return Enumerable.Empty&lt;IDatabase$ENTITY$&gt;();&#xD;
+	}&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Reads an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IDatabase$ENTITY$" /&gt;.&lt;/returns&gt;&#xD;
+    public async Task&lt;IDatabase$ENTITY$&gt; ReadAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await Task.CompletedTask;&#xD;
+&#xD;
+		return new Database$ENTITY$&#xD;
+		{&#xD;
+			Id = $ENTITY_VAR$Id&#xD;
+		};&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Update the specfied entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="update$ENTITY$Dto"&gt;The data of the update.&lt;/param&gt;&#xD;
+	/// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	public async Task UpdateAsync(string userId, string $ENTITY_VAR$Id, IUpdate$ENTITY$Dto update$ENTITY$Dto, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await Task.CompletedTask;&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Delete an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+	/// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	public async Task DeleteAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await Task.CompletedTask;&#xD;
+	}&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=101C2450BE5DCF4FB8FFDD25DFF00BBB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=101C2450BE5DCF4FB8FFDD25DFF00BBB/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="I$NAME$Base.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=101C2450BE5DCF4FB8FFDD25DFF00BBB/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=101C2450BE5DCF4FB8FFDD25DFF00BBB/Order/@EntryValue">21</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=101C2450BE5DCF4FB8FFDD25DFF00BBB/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///		Describes a basic $ENTITY$ entity.&#xD;
+/// &lt;/summary&gt;&#xD;
+public interface I$ENTITY$Base&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+	///		Gets the id of the entry.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	string Id { get; }&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=133F1B15DB35374DB2E9C916D9EE64D9/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=133F1B15DB35374DB2E9C916D9EE64D9/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Services" File="I$NAME$Database.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=133F1B15DB35374DB2E9C916D9EE64D9/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=133F1B15DB35374DB2E9C916D9EE64D9/Order/@EntryValue">16</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=133F1B15DB35374DB2E9C916D9EE64D9/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///	Describes the $ENTITY_VAR$ database.&#xD;
+/// &lt;/summary&gt;&#xD;
+public interface I$ENTITY$Database&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Creates a new database entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$"&gt;The data of the new entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	Task CreateAsync(IDatabase$ENTITY$ database$ENTITY$, CancellationToken cancellationToken);&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Reads all available entries.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IEnumerable{T}" /&gt; of &lt;see cref="IDatabase$ENTITY$" /&gt;.&lt;/returns&gt;&#xD;
+    Task&lt;IEnumerable&lt;IDatabase$ENTITY$&gt;&gt; ReadAsync(string userId, CancellationToken cancellationToken);&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Reads an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IDatabase$ENTITY$" /&gt;.&lt;/returns&gt;&#xD;
+    Task&lt;IDatabase$ENTITY$&gt; ReadAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken);&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Update the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="update$ENTITY$Dto"&gt;The data of the update.&lt;/param&gt;&#xD;
+	/// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	Task UpdateAsync(string userId, string $ENTITY_VAR$Id, IUpdate$ENTITY$Dto update$ENTITY$Dto, CancellationToken cancellationToken);&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Delete an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+	/// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	Task DeleteAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken);&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=165DD09A1787AE4AA38CC8A1B7B586E5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=165DD09A1787AE4AA38CC8A1B7B586E5/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="Create$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=165DD09A1787AE4AA38CC8A1B7B586E5/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=165DD09A1787AE4AA38CC8A1B7B586E5/Order/@EntryValue">6</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=165DD09A1787AE4AA38CC8A1B7B586E5/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public class Create$ENTITY$Dto : ICreate$ENTITY$Dto {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=2976C0936F7F9F408E9265668ECACBEA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=2976C0936F7F9F408E9265668ECACBEA/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=2976C0936F7F9F408E9265668ECACBEA/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=2976C0936F7F9F408E9265668ECACBEA/Order/@EntryValue">15</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=2976C0936F7F9F408E9265668ECACBEA/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+internal class $ENTITY$Dto : $ENTITY$Base, I$ENTITY$Dto {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=297EF786C63C0644B71DF32971EADF5C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=297EF786C63C0644B71DF32971EADF5C/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Services" File="I$NAME$Transformer.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=297EF786C63C0644B71DF32971EADF5C/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=297EF786C63C0644B71DF32971EADF5C/Order/@EntryValue">5</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=297EF786C63C0644B71DF32971EADF5C/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///	Describes an entry transformer.&#xD;
+/// &lt;/summary&gt;&#xD;
+public interface I$ENTITY$Transformer&#xD;
+{&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Converts from &lt;see cref="ICreate$ENTITY$Dto"/&gt; to &lt;see cref="I$ENTITY$"/&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="create$ENTITY$Dto"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;param name="id"&gt;The id of the new entry.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$"/&gt; entry.&lt;/returns&gt;&#xD;
+    I$ENTITY$ To$ENTITY$(ICreate$ENTITY$Dto create$ENTITY$Dto, string id);&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Converts from &lt;see cref="I$ENTITY$"/&gt; to &lt;see cref="I$ENTITY$Dto"/&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$Dto"/&gt; entry.&lt;/returns&gt;&#xD;
+    I$ENTITY$Dto To$ENTITY$Dto(I$ENTITY$ $ENTITY_VAR$);&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="I$ENTITY$" /&gt; to &lt;see cref="IDatabase$ENTITY$" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="IDatabase$ENTITY$" /&gt; entry.&lt;/returns&gt;&#xD;
+    IDatabase$ENTITY$ ToDatabase$ENTITY$(I$ENTITY$ $ENTITY_VAR$);&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="IDatabase$ENTITY$" /&gt; to &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="I$ENTITY$Dto" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$s"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="I$ENTITY$Dto" /&gt; entry.&lt;/returns&gt;&#xD;
+    IEnumerable&lt;I$ENTITY$Dto&gt; To$ENTITY$Dto(IEnumerable&lt;IDatabase$ENTITY$&gt; database$ENTITY$s);&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="IDatabase$ENTITY$" /&gt; to &lt;see cref="I$ENTITY$Dto" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$Dto" /&gt; entry.&lt;/returns&gt;&#xD;
+    I$ENTITY$Dto To$ENTITY$Dto(IDatabase$ENTITY$ database$ENTITY$);&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=32762BCDFCEA654389C3B011A4177BB1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=32762BCDFCEA654389C3B011A4177BB1/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="ICreate$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=32762BCDFCEA654389C3B011A4177BB1/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=32762BCDFCEA654389C3B011A4177BB1/Order/@EntryValue">0</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=32762BCDFCEA654389C3B011A4177BB1/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public interface ICreate$ENTITY$Dto {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3B6863E4EA59D14AA622D2FFEB7AF0AC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3B6863E4EA59D14AA622D2FFEB7AF0AC/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Project="$PROJECT$.Tests" Folder="$RELPATH$" File="$NAME$ControllerTests.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3B6863E4EA59D14AA622D2FFEB7AF0AC/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3B6863E4EA59D14AA622D2FFEB7AF0AC/Order/@EntryValue">18</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3B6863E4EA59D14AA622D2FFEB7AF0AC/SectionPlain/Text/@EntryValue">namespace $TEST_SERVICE_NAMESPACE$;&#xD;
+&#xD;
+public class $ENTITY$ControllerTests {&#xD;
+	[Fact]&#xD;
+	public void DummyTest()&#xD;
+	{&#xD;
+		Assert.True(true);&#xD;
+	}&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3DEB042AFD602643990317EABCD70CBE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3DEB042AFD602643990317EABCD70CBE/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="IUpdate$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3DEB042AFD602643990317EABCD70CBE/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3DEB042AFD602643990317EABCD70CBE/Order/@EntryValue">3</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=3DEB042AFD602643990317EABCD70CBE/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public interface IUpdate$ENTITY$Dto {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=47E29F324A3C13409A6E0326D5753F2E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=47E29F324A3C13409A6E0326D5753F2E/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Services" File="$NAME$Transformer.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=47E29F324A3C13409A6E0326D5753F2E/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=47E29F324A3C13409A6E0326D5753F2E/Order/@EntryValue">10</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=47E29F324A3C13409A6E0326D5753F2E/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+using $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///	Describes an entry transformer.&#xD;
+/// &lt;/summary&gt;&#xD;
+/// &lt;seealso cref="I$ENTITY$Transformer"/&gt;&#xD;
+public class $ENTITY$Transformer : I$ENTITY$Transformer &#xD;
+{&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Converts from &lt;see cref="ICreate$ENTITY$Dto"/&gt; to &lt;see cref="I$ENTITY$"/&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="create$ENTITY$Dto"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;param name="id"&gt;The id of the new entry.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$"/&gt; entry.&lt;/returns&gt;&#xD;
+    public I$ENTITY$ To$ENTITY$(ICreate$ENTITY$Dto create$ENTITY$Dto, string id)&#xD;
+	{&#xD;
+		return new $ENTITY$&#xD;
+		{&#xD;
+			Id = id&#xD;
+		};&#xD;
+	}&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Converts from &lt;see cref="I$ENTITY$"/&gt; to &lt;see cref="I$ENTITY$Dto"/&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$Dto"/&gt; entry.&lt;/returns&gt;&#xD;
+    public I$ENTITY$Dto To$ENTITY$Dto(I$ENTITY$ $ENTITY_VAR$)&#xD;
+	{&#xD;
+		return new $ENTITY$Dto&#xD;
+		{&#xD;
+			Id = $ENTITY_VAR$.Id&#xD;
+		};&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="I$ENTITY$" /&gt; to &lt;see cref="IDatabase$ENTITY$" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="IDatabase$ENTITY$" /&gt; entry.&lt;/returns&gt;&#xD;
+    public IDatabase$ENTITY$ ToDatabase$ENTITY$(I$ENTITY$ $ENTITY_VAR$)&#xD;
+	{&#xD;
+		return new Database$ENTITY$&#xD;
+		{&#xD;
+			Id = $ENTITY_VAR$.Id&#xD;
+		};&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="IDatabase$ENTITY$" /&gt; to &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="I$ENTITY$Dto" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$s"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="I$ENTITY$Dto" /&gt; entry.&lt;/returns&gt;&#xD;
+    public IEnumerable&lt;I$ENTITY$Dto&gt; To$ENTITY$Dto(IEnumerable&lt;IDatabase$ENTITY$&gt; database$ENTITY$s)&#xD;
+	{&#xD;
+		return database$ENTITY$s.Select(this.To$ENTITY$Dto);&#xD;
+	}&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Converts from &lt;see cref="IDatabase$ENTITY$" /&gt; to &lt;see cref="I$ENTITY$Dto" /&gt;.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="database$ENTITY$"&gt;The source data from that the new entry is created.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;The created &lt;see cref="I$ENTITY$Dto" /&gt; entry.&lt;/returns&gt;&#xD;
+    public I$ENTITY$Dto To$ENTITY$Dto(IDatabase$ENTITY$ database$ENTITY$)&#xD;
+	{&#xD;
+		return new $ENTITY$Dto { Id = database$ENTITY$.Id };&#xD;
+	}&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=5548CE63B919564E990450E810A44D84/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=5548CE63B919564E990450E810A44D84/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Services" File="$NAME$BusinessLogic.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=5548CE63B919564E990450E810A44D84/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=5548CE63B919564E990450E810A44D84/Order/@EntryValue">11</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=5548CE63B919564E990450E810A44D84/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Services;&#xD;
+&#xD;
+using System;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+&#xD;
+internal class $ENTITY$BusinessLogic : I$ENTITY$BusinessLogic&#xD;
+{&#xD;
+	private readonly I$ENTITY$Database $ENTITY_VAR$Database;&#xD;
+&#xD;
+	private readonly I$ENTITY$Transformer $ENTITY_VAR$Transformer;&#xD;
+&#xD;
+	public $ENTITY$BusinessLogic(I$ENTITY$Database $ENTITY_VAR$Database, I$ENTITY$Transformer $ENTITY_VAR$Transformer)&#xD;
+	{&#xD;
+		this.$ENTITY_VAR$Database = $ENTITY_VAR$Database;&#xD;
+		this.$ENTITY_VAR$Transformer = $ENTITY_VAR$Transformer;&#xD;
+	}&#xD;
+&#xD;
+	public async Task&lt;I$ENTITY$Dto&gt; CreateAsync(string userId, ICreate$ENTITY$Dto create$ENTITY$Dto, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		var $ENTITY_VAR$ = this.$ENTITY_VAR$Transformer.To$ENTITY$(create$ENTITY$Dto, Guid.NewGuid().ToString());&#xD;
+&#xD;
+		var database$ENTITY$ = this.$ENTITY_VAR$Transformer.ToDatabase$ENTITY$($ENTITY_VAR$);&#xD;
+&#xD;
+        await this.$ENTITY_VAR$Database.CreateAsync(&#xD;
+            database$ENTITY$,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+		var $ENTITY_VAR$Dto = this.$ENTITY_VAR$Transformer.To$ENTITY$Dto($ENTITY_VAR$);&#xD;
+		&#xD;
+		return $ENTITY_VAR$Dto;&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Reads all available entries.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IEnumerable{T}" /&gt; of &lt;see cref="I$ENTITY$Dto" /&gt;.&lt;/returns&gt;&#xD;
+    public async Task&lt;IEnumerable&lt;I$ENTITY$Dto&gt;&gt; ReadAsync(string userId, CancellationToken cancellationToken)&#xD;
+    {&#xD;
+        cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+        var database$ENTITY$s = await this.$ENTITY_VAR$Database.ReadAsync(&#xD;
+            userId,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+        var items = this.$ENTITY_VAR$Transformer.To$ENTITY$Dto(database$ENTITY$s);&#xD;
+&#xD;
+        return items;&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Reads an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="I$ENTITY$Dto" /&gt;.&lt;/returns&gt;&#xD;
+    public async Task&lt;I$ENTITY$Dto&gt; ReadAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken)&#xD;
+    {&#xD;
+        cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+        var database$ENTITY$ = await this.$ENTITY_VAR$Database.ReadAsync(&#xD;
+            userId,&#xD;
+            $ENTITY_VAR$Id,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+        var $ENTITY_VAR$ = this.$ENTITY_VAR$Transformer.To$ENTITY$Dto(database$ENTITY$);&#xD;
+&#xD;
+        return $ENTITY_VAR$;&#xD;
+    }&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Updates the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="update$ENTITY$Dto"&gt;The data of the update.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+    public async Task UpdateAsync(string userId, string $ENTITY_VAR$Id, IUpdate$ENTITY$Dto update$ENTITY$Dto, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		await this.$ENTITY_VAR$Database.UpdateAsync(userId, $ENTITY_VAR$Id, update$ENTITY$Dto, cancellationToken);&#xD;
+	}&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Deletes the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	public async Task DeleteAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		await this.$ENTITY_VAR$Database.DeleteAsync(userId, $ENTITY_VAR$Id, cancellationToken);&#xD;
+	}&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=693157C6B2D95D47AD257FAB7232703C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=693157C6B2D95D47AD257FAB7232703C/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="$NAME$.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=693157C6B2D95D47AD257FAB7232703C/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=693157C6B2D95D47AD257FAB7232703C/Order/@EntryValue">8</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=693157C6B2D95D47AD257FAB7232703C/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public class $ENTITY$ : $ENTITY$Base, I$ENTITY$&#xD;
+{&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7199E11174956C4A9CBD87ECDFC0E2BD/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7199E11174956C4A9CBD87ECDFC0E2BD/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="$NAME$Base.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7199E11174956C4A9CBD87ECDFC0E2BD/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7199E11174956C4A9CBD87ECDFC0E2BD/Order/@EntryValue">22</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7199E11174956C4A9CBD87ECDFC0E2BD/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///		Describes a basic $ENTITY$ entity.&#xD;
+/// &lt;/summary&gt;&#xD;
+public class $ENTITY$Base : I$ENTITY$Base&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+	///		Gets or sets the id of the entry.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	public string Id { get; set; } = string.Empty;&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7B38827C79C5E74A8A41C515D1F235ED/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7B38827C79C5E74A8A41C515D1F235ED/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig File="$NAME$Controller.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7B38827C79C5E74A8A41C515D1F235ED/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7B38827C79C5E74A8A41C515D1F235ED/Order/@EntryValue">12</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=7B38827C79C5E74A8A41C515D1F235ED/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$;&#xD;
+&#xD;
+using Microsoft.AspNetCore.Mvc;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+using $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+///   CRUD api controller for handling $ENTITY_VAR$ entities.&#xD;
+/// &lt;/summary&gt;&#xD;
+[ApiController]&#xD;
+[Route("api/[controller]")]&#xD;
+public class $ENTITY$Controller : ControllerBase&#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+	///   Access to the CRUD business logic.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	private readonly I$ENTITY$BusinessLogic businessLogic;&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Initializes a new instance of the &lt;see cref="$ENTITY$Controller"/&gt; class.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="businessLogic"&gt;The business logic.&lt;/param&gt;&#xD;
+    public $ENTITY$Controller(I$ENTITY$BusinessLogic businessLogic)&#xD;
+    {&#xD;
+		this.businessLogic = businessLogic;&#xD;
+    }&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+	///   Create a new $ENTITY_VAR$ entity.&#xD;
+	/// &lt;/summary&gt;&#xD;
+	/// &lt;param name="create$ENTITY$Dto"&gt;The required data for creating a new $ENTITY_VAR$ entity.&lt;/param&gt;&#xD;
+	/// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+	/// &lt;returns&gt;A &lt;see cref="CreatedAtActionResult" /&gt; with the created entry.&lt;/returns&gt;&#xD;
+	[HttpPost]&#xD;
+	public async Task&lt;ActionResult&gt; Post([FromBody] Create$ENTITY$Dto create$ENTITY$Dto, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		var $ENTITY_VAR$Dto = await this.businessLogic.CreateAsync(string.Empty, create$ENTITY$Dto, cancellationToken);&#xD;
+		&#xD;
+		return this.CreatedAtAction(&#xD;
+                nameof(this.Get),&#xD;
+                new {id = $ENTITY_VAR$Dto.Id},&#xD;
+                $ENTITY_VAR$Dto);&#xD;
+	}&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Read all available entries.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task{T}" /&gt; whose result is an &lt;see cref="OkObjectResult" /&gt; including the found entries.&lt;/returns&gt;&#xD;
+    [HttpGet]&#xD;
+    public async Task&lt;ActionResult&gt; Get(CancellationToken cancellationToken)&#xD;
+    {&#xD;
+        cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+        var $ENTITY_VAR$s = await this.businessLogic.ReadAsync(&#xD;
+            string.Empty,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+        return this.Ok($ENTITY_VAR$s);&#xD;
+    }&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    ///     Read an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task{T}" /&gt; whose result is an &lt;see cref="OkObjectResult" /&gt; including the found entry.&lt;/returns&gt;&#xD;
+    [HttpGet("{id}")]&#xD;
+    public async Task&lt;ActionResult&gt; Get([FromRoute] string id, CancellationToken cancellationToken)&#xD;
+    {&#xD;
+        cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+        var $ENTITY_VAR$ = await this.businessLogic.ReadAsync(&#xD;
+            string.Empty,&#xD;
+            id,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+        return this.Ok($ENTITY_VAR$);&#xD;
+    }&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Update the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="update$ENTITY$Dto"&gt;The data of the update.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is a &lt;see cref="NoContentResult"/&gt;.&lt;/returns&gt;&#xD;
+    [HttpPut("{id}")]&#xD;
+    public async Task&lt;ActionResult&gt; Put([FromRoute] string id, [FromBody] Update$ENTITY$Dto update$ENTITY$Dto, CancellationToken cancellationToken)&#xD;
+	{&#xD;
+		cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+        await this.businessLogic.UpdateAsync(&#xD;
+            string.Empty,&#xD;
+			id,&#xD;
+            update$ENTITY$Dto,&#xD;
+            cancellationToken);&#xD;
+        return this.NoContent();&#xD;
+    }&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Deletes an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is a &lt;see cref="NoContentResult"/&gt;.&lt;/returns&gt;&#xD;
+    [HttpDelete("{id}")]&#xD;
+    public async Task&lt;ActionResult&gt; Delete([FromRoute]string id, CancellationToken cancellationToken)&#xD;
+    {&#xD;
+        cancellationToken.ThrowIfCancellationRequested();&#xD;
+&#xD;
+		await this.businessLogic.DeleteAsync(&#xD;
+            string.Empty,&#xD;
+            id,&#xD;
+            cancellationToken);&#xD;
+&#xD;
+        return this.NoContent();&#xD;
+    }&#xD;
+}&#xD;
+&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8BBCCE8EC1F5AD4199C8FA325F109BAC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8BBCCE8EC1F5AD4199C8FA325F109BAC/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="I$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8BBCCE8EC1F5AD4199C8FA325F109BAC/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8BBCCE8EC1F5AD4199C8FA325F109BAC/Order/@EntryValue">14</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8BBCCE8EC1F5AD4199C8FA325F109BAC/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public interface I$ENTITY$Dto : I$ENTITY$Base {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8E686AD981B0BA469497379C19379188/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8E686AD981B0BA469497379C19379188/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Extensions" File="$NAME$ServiceCollectionExtensions.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8E686AD981B0BA469497379C19379188/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8E686AD981B0BA469497379C19379188/Order/@EntryValue">13</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=8E686AD981B0BA469497379C19379188/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Extensions;&#xD;
+&#xD;
+public static class $ENTITY$ServiceCollectionExtensions {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=95CF21C5D5B67D4E99D5EBC007187643/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=95CF21C5D5B67D4E99D5EBC007187643/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Project="$PROJECT$.Tests" Folder="$RELPATH$/Services" File="$NAME$DatabaseTests.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=95CF21C5D5B67D4E99D5EBC007187643/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=95CF21C5D5B67D4E99D5EBC007187643/Order/@EntryValue">20</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=95CF21C5D5B67D4E99D5EBC007187643/SectionPlain/Text/@EntryValue">namespace $TEST_SERVICE_NAMESPACE$.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+public class $ENTITY$DatabaseTests &#xD;
+{&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=BB3E54D424A9864FA05322CAAC7F49D8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=BB3E54D424A9864FA05322CAAC7F49D8/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="IDatabase$NAME$.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=BB3E54D424A9864FA05322CAAC7F49D8/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=BB3E54D424A9864FA05322CAAC7F49D8/Order/@EntryValue">1</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=BB3E54D424A9864FA05322CAAC7F49D8/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public interface IDatabase$ENTITY$ : I$ENTITY$Base&#xD;
+{&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=C451481810E2314795448273E7722A83/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=C451481810E2314795448273E7722A83/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="Database$NAME$.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=C451481810E2314795448273E7722A83/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=C451481810E2314795448273E7722A83/Order/@EntryValue">9</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=C451481810E2314795448273E7722A83/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public class Database$ENTITY$ : $ENTITY$Base, IDatabase$ENTITY$ &#xD;
+{&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=D2F2FB9312C22D40A255B68A062C3876/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=D2F2FB9312C22D40A255B68A062C3876/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Services" File="I$NAME$BusinessLogic.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=D2F2FB9312C22D40A255B68A062C3876/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=D2F2FB9312C22D40A255B68A062C3876/Order/@EntryValue">4</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=D2F2FB9312C22D40A255B68A062C3876/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Services;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+/// &lt;summary&gt;&#xD;
+/// Describes the crud business logic for handling $ENTITY_VAR$ entities.&#xD;
+/// &lt;/summary&gt;&#xD;
+public interface I$ENTITY$BusinessLogic &#xD;
+{&#xD;
+	/// &lt;summary&gt;&#xD;
+    ///     Creates a new entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="create$ENTITY$Dto"&gt;The required data for creating a new entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task{T}" /&gt; whose result is the created &lt;see cref="I$ENTITY$Dto" /&gt; entry.&lt;/returns&gt;&#xD;
+	Task&lt;I$ENTITY$Dto&gt; CreateAsync(string userId, ICreate$ENTITY$Dto create$ENTITY$Dto, CancellationToken cancellationToken);&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Reads all available entries.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="IEnumerable{T}"/&gt; of &lt;see cref="I$ENTITY$Dto"/&gt;.&lt;/returns&gt;&#xD;
+    Task&lt;IEnumerable&lt;I$ENTITY$Dto&gt;&gt; ReadAsync(string userId, CancellationToken cancellationToken);&#xD;
+&#xD;
+    /// &lt;summary&gt;&#xD;
+    /// Reads an entry by its id.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result is an &lt;see cref="I$ENTITY$Dto"/&gt;.&lt;/returns&gt;&#xD;
+    Task&lt;I$ENTITY$Dto&gt; ReadAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken);&#xD;
+&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Updates the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="update$ENTITY$Dto"&gt;The data of the update.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+    Task UpdateAsync(string userId, string $ENTITY_VAR$Id, IUpdate$ENTITY$Dto update$ENTITY$Dto, CancellationToken cancellationToken);&#xD;
+	&#xD;
+	/// &lt;summary&gt;&#xD;
+    /// Deletes the specified entry.&#xD;
+    /// &lt;/summary&gt;&#xD;
+    /// &lt;param name="userId"&gt;The id of the user.&lt;/param&gt;&#xD;
+    /// &lt;param name="$ENTITY_VAR$Id"&gt;The id of the entry.&lt;/param&gt;&#xD;
+    /// &lt;param name="cancellationToken"&gt;Indicates that the start process has been aborted.&lt;/param&gt;&#xD;
+    /// &lt;returns&gt;A &lt;see cref="Task" /&gt; whose result indicates success.&lt;/returns&gt;&#xD;
+	Task DeleteAsync(string userId, string $ENTITY_VAR$Id, CancellationToken cancellationToken);&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=DE803AAD6F746D42AD85CC5125F521A6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=DE803AAD6F746D42AD85CC5125F521A6/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Models" File="Update$NAME$Dto.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=DE803AAD6F746D42AD85CC5125F521A6/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=DE803AAD6F746D42AD85CC5125F521A6/Order/@EntryValue">7</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=DE803AAD6F746D42AD85CC5125F521A6/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public class Update$ENTITY$Dto : IUpdate$ENTITY$Dto {&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=E13B020EEA989642A69E9BDC4ADD9095/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=E13B020EEA989642A69E9BDC4ADD9095/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Project="$PROJECT$.Tests" Folder="$RELPATH$/Models" File="Create$NAME$DtoTests.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=E13B020EEA989642A69E9BDC4ADD9095/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=E13B020EEA989642A69E9BDC4ADD9095/Order/@EntryValue">19</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=E13B020EEA989642A69E9BDC4ADD9095/SectionPlain/Text/@EntryValue">namespace $TEST_SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+using $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+using $SERVICE_NAMESPACE$.Models;&#xD;
+&#xD;
+public class Create$ENTITY$DtoTests &#xD;
+{&#xD;
+	[Fact]&#xD;
+	public void IsAnICreate$ENTITY$Dto()&#xD;
+	{&#xD;
+		var create$ENTITY$Dto = new Create$ENTITY$Dto();&#xD;
+&#xD;
+		Assert.IsAssignableFrom&lt;ICreate$ENTITY$Dto&gt;(create$ENTITY$Dto);&#xD;
+	}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=F0140497CA225C44B1E0716D0C2A68E4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=F0140497CA225C44B1E0716D0C2A68E4/LocationSelectorConfig/@EntryValue">&lt;RelativeConfig Folder="./Contracts/Models" File="I$NAME$.cs" /&gt;</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=F0140497CA225C44B1E0716D0C2A68E4/LocationSelectorName/@EntryValue">manual</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=F0140497CA225C44B1E0716D0C2A68E4/Order/@EntryValue">2</s:Int64>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Section/=F0140497CA225C44B1E0716D0C2A68E4/SectionPlain/Text/@EntryValue">namespace $SERVICE_NAMESPACE$.Contracts.Models;&#xD;
+&#xD;
+public interface I$ENTITY$ : I$ENTITY$Base&#xD;
+{&#xD;
+}</s:String>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2F9EC21302E2074F95BE2E672AD25E95/Text/@EntryValue">namespace $SERVICE_NAMESPACE$;&#xD;
+&#xD;
+/**&#xD;
+ * [Project]&#xD;
+ *	$ENTITY$.cs&#xD;
+ *	$ENTITY$Controller.cs&#xD;
+ *	Contracts&#xD;
+ * 		Models&#xD;
+ * 			ICreate$ENTITY$Dto.cs&#xD;
+ * 			IDatabase$ENTITY$.cs&#xD;
+ * 			I$ENTITY$.cs&#xD;
+ * 			IUpdate$ENTITY$Dto.cs&#xD;
+ * 		Services	&#xD;
+ * 			I$ENTITY$BusinessLogic.cs&#xD;
+ * 			I$ENTITY$Database.cs&#xD;
+ * 			I$ENTITY$Transformer.cs&#xD;
+ *	Extensions&#xD;
+ * 		$ENTITY$ServiceCollectionExtensions.cs&#xD;
+ *	Models&#xD;
+ * 		Create$ENTITY$Dto.cs&#xD;
+ * 		$ENTITY$.cs&#xD;
+ * 		Update$ENTITY$Dto.cs&#xD;
+ * 		Database$ENTITY$.cs&#xD;
+ *	Services&#xD;
+ * 		$ENTITY$BusinessLogic.cs&#xD;
+ * 		$ENTITY$Database.cs&#xD;
+ * 		$ENTITY$Transformer.cs&#xD;
+ * [Project].Tests&#xD;
+ *	Models&#xD;
+ *		Create$ENTITY$DtoTests.cs&#xD;
+**/</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=auit/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=ffmpeg/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=firestore/@EntryIndexedValue">True</s:Boolean>
